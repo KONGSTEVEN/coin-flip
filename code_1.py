@@ -3,7 +3,7 @@ import random
 house = float(input("Enter house advantage (as a decimal): "))
 bet = float(input("Set the bet: "))
 win = float(input("Set the win amount: "))
-bank = int(input("How much money do you want to start with? "))
+bank = float(input("How much money do you want to start with? "))
 
 top = bet - (bet*house)
 bottom = win + bet
