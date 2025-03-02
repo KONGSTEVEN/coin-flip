@@ -15,7 +15,7 @@ while not top.is_integer() or not bottom.is_integer():
 top = int(top)
 bottom = int(bottom)
 
-total = int(input("How many times do you want to play?"))
+total = int(input("How many times do you want to play? "))
 count = 1
 while count <= total:
     x = random.randint(1, bottom)
